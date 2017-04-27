@@ -1,0 +1,74 @@
+{
+ "query": {
+			"results": {
+				"title": "Yahoo! Weather - Toronto, ON, CA",
+				"lastBuildDate": "Tue, 14 Mar 2017 02:29 PM EDT",
+				"location": {
+							 "city": "Toronto",
+							 "country": "Canada",
+							 "region": " ON"
+										},
+				"wind": {
+							 "chill": "5",
+							 "direction": "5",
+							 "speed": "29"
+								},
+				"atmosphere": {
+							 "humidity": "62",
+							 "pressure": "1006.0",
+							 "rising": "0",
+							 "visibility": "16.1"
+								},
+				"astronomy": {
+							 "sunrise": "7:32 am",
+							 "sunset": "7:22 pm"
+								},
+				"item": {
+						 "title": "Conditions for Toronto, ON, CA at 12:00 PM EDT",
+						 "lat": "43.64856",
+						 "long": "-79.385368",
+						 "pubDate": "Tue, 14 Mar 2017 12:00 PM EDT",
+						 "condition": {
+										"code": "15",
+										"date": "Tue, 14 Mar 2017 12:00 PM EDT",
+										"temp": "20",
+										"text": "Blowing Snow"
+											},
+						 "forecast": [
+									{
+									 "code": "23",
+									 "date": "14 Mar 2017",
+									 "day": "Tue",
+									 "high": "21",
+									 "low": "15",
+									 "text": "Breezy"
+									},
+									{
+									 "code": "15",
+									 "date": "15 Mar 2017",
+									 "day": "Wed",
+									 "high": "24",
+									 "low": "14",
+									 "text": "Blowing Snow"
+									},
+									{
+									 "code": "32",
+									 "date": "16 Mar 2017",
+									 "day": "Thu",
+									 "high": "34",
+									 "low": "16",
+									 "text": "Sunny"
+									},
+									{
+									 "code": "5",
+									 "date": "17 Mar 2017",
+									 "day": "Fri",
+									 "high": "37",
+									 "low": "19",
+									 "text": "Rain And Snow"
+									}
+							]
+						}
+			 }
+  }
+}

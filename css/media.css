@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 320px){
 
-    #main{
+    #main{      /*----landing page-----*/
         background-image: url("../images/tor.jpg");
         height: 100%;
         width: 100%;
@@ -17,7 +17,6 @@
     h1{
         font-family: sans-serif;
         letter-spacing: 12px;
-        font-size: 50%;
     }
     
     h3{
@@ -25,10 +24,10 @@
         font-family: Baskerville, Georgia, serif;
         font-weight: 400;
         letter-spacing: 4px;
-        font-size: 10px;
+        font-size: auto;
     }
     
-    .infoDark{
+    .infoDark{      /*----jquery.html-----*/
         font-family: Baskerville, Georgia, serif;
         font-size: 14px;
         font-style: italic;
@@ -36,7 +35,7 @@
         color: white;
   
     }
-    .infoLight{
+    .infoLight{     /*----jquery.html-----*/
         font-family: Baskerville, Georgia, serif;
         font-size: 14px;
         font-style: italic;
@@ -44,9 +43,30 @@
         color: black;
   
     }
-    img{
+    img{    
         width: 90%;
         height: 50%;
+    }
+    .head{
+        font-weight: bold;
+        padding-left: 5%;
+        font-size: 16px;
+    }
+    
+    #summary{   /*----me.html-----*/
+        color: black;
+        font-size-adjust: auto;
+        line-height: 30px;
+        padding: 30px 20px 40px 20px; 
+        text-align: justify;
+                
+    }
+    
+    #profile{   /*----me.html-----*/
+        margin-top: 5%;
+        width: 200px;
+        height: 200px;
+        border-radius: 90%;
     }
     
     /*---------Start of parallax----------*/
@@ -73,7 +93,7 @@
 
     /*---------End of parallax----------*/
 	
-    /* -----------ME PAGE-----------*/
+    /* *********** ME PAGE *********** */
     
     #intro{
       
@@ -101,9 +121,10 @@
         font-size: 18px;
     }
     
-/* -----------END OF ME PAGE-----------*/
+/* *********** END OF ME PAGE *********** */
     
-}/* -----------END OF MEDIA-----------*/
+}
+
 
 @media screen and (min-width: 580px){
 
@@ -268,7 +289,7 @@
         background-color: #80dfff;        
     }
     #info{
-        padding-bottom: 19%;
+        padding-bottom: 6%;
     }
     
     #intro{
@@ -307,8 +328,19 @@
     #summary{
         margin-top: 8%;
         font-size: 25px;
-        
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+        line-height: 45px;
+        font-family: 'Roboto Slab', serif;        
     }
+    
+    #profile{
+        width: 300px;
+        height: 300px;
+        border-radius: 90%;
+    }
+
     
     
     

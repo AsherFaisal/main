@@ -20,12 +20,30 @@ html,body{
     text-shadow: 0px 0px 300px #000;
 }
 
+.infoDark{
+    font-family: Baskerville, Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    display: inline;
+    color: white;
+
+}
+.infoLight{
+    font-family: Baskerville, Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    display: inline;
+    color: black;
+
+}
+
 #info{
     text-align: center;
 }
 
 #linkedin{
-    padding-top: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align:center;
 }
 

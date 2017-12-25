@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 320px){
+    
+    .infoDark{      
+        font-family: Baskerville, Georgia, serif;
+        font-size: 14px;
+        font-style: italic;
+        display: inline;
+        color: blue;
+  
+    }
+    .infoLight{   
+        font-family: Baskerville, Georgia, serif;
+        font-size: 14px;
+        font-style: italic;
+        display: inline;
+        color: black;
+  
+    }
+    
+
+    .head{
+        font-weight: bold;
+        padding-left: 5%;
+        font-size: 16px;
+    }
+    
+    h1{
+        font-family: sans-serif;
+        letter-spacing: 12px;
+    }
+    
+    h3{
+        padding-top: 10px;
+        font-family: Baskerville, Georgia, serif;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-size: auto;
+    }
+    
+
+    
+    /*---------Start of parallax----------*/
+    
+    .paral{
+        text-align: center;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+        height: 500px;
+    }
+
+    .paralSec{
+
+        height: 500px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    
+
+
+
+}
+
+
+@media screen and (min-width: 960px){   
+
+    .infoDark{
+        font-family: Baskerville, Georgia, serif;
+        font-size: 24px;
+        font-style: italic;
+        display: inline;
+        color: white;
+  
+    }
+    .infoLight{
+        font-family: Baskerville, Georgia, serif;
+        font-size: 24px;
+        font-style: italic;
+        display: inline;
+        color: black;
+  
+    }
+    
+    h1{
+        font-family: sans-serif;
+        letter-spacing: 35px;
+        font-size: 90px;
+    }
+    
+    h3{
+        padding-top: 10px;
+        font-family: Baskerville, Georgia, serif;
+        font-weight: 400;
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+
+/*---------JQUERY PAGE DIVIDERS----------*/
+    
+    .vids{
+        padding-top: 5%;        
+        height: 50%;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .paral{
+        text-align: center;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        color: black;
+        height: 750px;
+        
+    }
+
+    .paralSec{
+        background-color: black;
+        height: 500px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        height: 750px;
+    }
+
+    .paralInner{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: 200px;
+        margin-left: 200px;
+        line-height: 40px;
+    }
+
+
+/*---------End of QUERY PAGE DIVIDERS----------*/
+    
+}

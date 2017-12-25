@@ -1,0 +1,128 @@
+@media screen and (min-width: 360px){
+
+    #container{    
+        text-align: center;  
+        height: auto;
+    }
+
+    body{
+        margin: 0auto;
+        height: auto;
+    }
+
+    .intro{
+        margin: 15% 10% 10% 10%;
+
+    }
+
+
+    .infoLight{
+        line-height: 40px;
+    }
+
+    .projects{
+        padding-top: 15%;    
+    }
+
+    .jamming, .ravenous {
+
+        width: 100%;
+        height: 600px;            
+    }
+
+    .info{
+        width: 30%;
+        height: 700px;
+        padding: 5% 5% 3% 5%;
+
+        font-family: Baskerville, Georgia, serif;
+        font-size: 15px;
+        line-height: 40px;
+        font-style: italic;
+        text-align: justify;
+        display: inline;
+        color: black;
+
+    }
+
+    .vidsReact{
+        width: 100%;
+        height: 35%;  
+        padding-bottom: 5%;
+    }
+    
+    video{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 960px){
+
+    #container{    
+        text-align: center;  
+        height: auto;
+    }
+
+    body{
+        margin: 0auto;
+        height: auto;
+    }
+
+    .intro{
+        margin: 15% 10% 10% 10%;
+
+    }
+
+
+    .infoLight{
+        line-height: 40px;
+    }
+
+    .projects{
+        padding-top: 15%;    
+    }
+
+    .jamming, .ravenous {
+
+        width: 99%;
+        height: 800px;            
+    }
+
+    .info{
+        width: 30%;
+        height: 700px;
+        float: left;
+        padding: 5% 2% 3% 2%;
+
+        font-family: Baskerville, Georgia, serif;
+        font-size: 24px;
+        line-height: 40px;
+        font-style: italic;
+        text-align: justify;
+        display: inline;
+        color: black;
+
+    }
+
+    .vidsReact{
+        width: 70%;
+        height: 600px;
+        float: right;    
+        margin-top: 5%;
+
+    }
+
+
+}
+
+
+
+

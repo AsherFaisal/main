@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 320px){
+    
+    #summary{ 
+        color: black;
+        font-size-adjust: auto;
+        line-height: 30px;
+        padding: 30px 20px 40px 20px; 
+        text-align: justify;                
+    }
+    
+    #profile{ 
+        margin-top: 5%;
+        width: 200px;
+        height: 200px;
+        border-radius: 90%;
+    }
+    
+    #intro{
+        background-color: #F7F7F6;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    #a{
+        padding-bottom: 12%;
+    }
+    #c{
+        padding-bottom: 12%;
+    }
+    #b{
+        padding-top: 5%;
+    }
+
+    .light{
+        color: gray;
+        padding-left: 5%;
+        font-size: 16px;
+    }
+
+    .subHead{
+        font-size: 18px;
+    }   
+
+    img{    
+        width: 90%;
+        height: 50%;
+    }
+    
+    
+    
+    
+}
+@media screen and (min-width: 960px){
+    #dropdown2, #info{
+        background-color: #80dfff;        
+    }
+    #info{
+        padding-top: 6%;
+        height: 720px;
+    }
+    
+    #intro{
+        padding: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #a{
+        padding-bottom: 12%;
+    }
+    #c{
+        padding-bottom: 12%;
+    }
+    #b{
+        padding-top: 35%;
+    }
+
+    .box{
+        margin-right: 10%;
+        margin-left: 20%;
+        position: absolute;
+        float: right;
+    }
+
+    .light{
+        color: gray;
+        padding-left: 0%;
+        font-size: 16px;
+    }
+
+    .subHead{
+        font-size: 18px;
+    }
+    
+    #summary{
+        margin-top: 4%;
+        font-size: 25px;
+        padding-left: 30%;
+        padding-right: 30%;
+        text-align: justify;
+        line-height: 45px;
+        font-family: 'Roboto Slab', serif;        
+    }
+    
+    #profile{
+        width: 300px;
+        height: 300px;
+        border-radius: 90%;
+    }
+    
+    .navbar .container-fluid>.navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav>li {
+  float: left;
+}
+
+}

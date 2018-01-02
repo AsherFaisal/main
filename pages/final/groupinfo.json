@@ -1,0 +1,34 @@
+{
+  "Students": {
+    "info": [
+      {
+        "Student": "Asher Faisal",
+        "login": "faisala",
+        "studentNumber": "991399405",
+        "studentPicture": "_images/asher.jpg",
+        "icon": "asher"
+      },
+      {
+        "Student": "Parminder Takhar",
+        "login": "takharp",
+        "studentNumber": "991383200",
+        "studentPicture": "_images/peter.jpg",
+        "icon": "peter"
+      },
+      {
+        "Student": "Danish Saeed",
+        "login": "saeed2",
+        "studentNumber": "991392490",
+        "studentPicture": "_images/danish.jpg",
+        "icon": "danish"
+      },
+      {
+        "Student": "Syed Zaidi",
+        "login": "Zaidi7",
+        "studentNumber": "991357257",
+        "studentPicture": "_images/talha.jpg",
+        "icon": "talha"
+      }
+    ]
+  }
+}

@@ -6,36 +6,40 @@
         <meta name= "viewport" content= "width= device-width, initial-scale = 1" />
         <script type="text/javascript" src="js/mainJS.js"></script>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-            alert("Please use Firefox browser for best results. Thank you!");
-        </script>
     </head>
 
     <body>
     
         <div id = "main">
                  
-            <div class="dropdown">
+            <div class="dropdown" id="dropdown2">
             <button class="btn btn-primary btn-med" type="button" data-toggle="dropdown">
                 <i class="glyphicon glyphicon-menu-hamburger" ></i>
             </button>
             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="pages/jquery.html">React.JS</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-2" href="pages/react.html">JQuery</a></li>
-                <!--  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li> -->
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Home</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-2" href="pages/jquery.html">React.JS</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-3" href="pages/react.html">JQuery</a></li>
                 <li role="presentation" class="divider"></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="../pages/me.html">About Me</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="pages/me.html">Resume </a></li>
             </ul>
         </div>
+                        
+                   
             
-            <div id= "content">
-                <h1>WELCOME</h1><br>
-                <p>"When something is important enough, you do it even if the odds are not in your favor." ~ Elon Musk </p>
+        <section id="info">
+
+           <!-- <img id="profile" src="/pages/images/profile.jpg" height="50%" width="50%"> -->    <h1>Welcome to Asher's Website!</h1>    
+            <div id="summary">
+                <p>Hello! my name is Asher, and this is my portfolio. I have studied Software Engineering at Sheridan College and graduated in october 2017. My portfolio includes my favourite school projects and I am constantly working on other projects while also learning new concepts and skills. You can check out my project on Github and contact me through Linkedin. </p>
+                 
             </div>
+
+        </section>
             
         
         </div>

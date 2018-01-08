@@ -3,144 +3,193 @@
 
 @media screen and (min-width: 320px){
     
-    .infoDark{      
-        font-family: Baskerville, Georgia, serif;
-        font-size: 14px;
-        font-style: italic;
-        display: inline;
-        color: blue;
-  
-    }
-    .infoLight{   
-        font-family: Baskerville, Georgia, serif;
-        font-size: 14px;
-        font-style: italic;
-        display: inline;
-        color: black;
-  
+   .dropdown{
+        background-image: url(../pages/images/img4.jpg);
+        background-size: cover;
     }
     
-
-    .head{
-        font-weight: bold;
-        padding-left: 5%;
-        font-size: 16px;
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
     }
-    
+ 
     h1{
         font-family: sans-serif;
-        letter-spacing: 12px;
+        letter-spacing: 35px;
+        text-align: center;
     }
     
-    h3{
-        padding-top: 10px;
+    #intro{
+        font-size: 32px;
+        padding-top: 10%;
+    }
+    
+    
+
+/*---------JQUERY PAGE DIVIDERS----------*/
+    
+    .vids{       
+        height: 280px;
+        width: 370px;
+        display: inline;
+        margin: 0 auto;
+    }
+
+    #cont1{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+    }
+    #cont2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+        
+    }
+    #cont3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+    }
+    #cont4{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+    }
+    
+    
+
+
+/*---------End of QUERY PAGE DIVIDERS----------*/
+    
+    .headers {
         font-family: Baskerville, Georgia, serif;
-        font-weight: 400;
-        letter-spacing: 4px;
-        font-size: auto;
-    }
-    
-
-    
-    /*---------Start of parallax----------*/
-    
-    .paral{
         text-align: center;
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 25px;
+        letter-spacing: 10px;
         color: black;
-        height: 500px;
-    }
 
-    .paralSec{
-
-        height: 500px;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 15px;
     }
     
-
-
-
+    .info{
+        font-family: Baskerville, Georgia, serif;
+        text-align: justify;
+        font-size: 18px;
+        font-style: italic;
+        color: black;        
+        padding: 2% 2% 0% 2%;
+    }
+    
 }
 
 
 @media screen and (min-width: 960px){   
-
-    .infoDark{
-        font-family: Baskerville, Georgia, serif;
-        font-size: 24px;
-        font-style: italic;
-        display: inline;
-        color: white;
-  
-    }
-    .infoLight{
-        font-family: Baskerville, Georgia, serif;
-        font-size: 24px;
-        font-style: italic;
-        display: inline;
-        color: black;
-  
+    
+    .dropdown{
+        background-image: url(../pages/images/img4.jpg);
+        background-size: cover;
     }
     
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+ 
     h1{
         font-family: sans-serif;
         letter-spacing: 35px;
-        font-size: 90px;
+        text-align: center;
     }
     
-    h3{
-        padding-top: 10px;
-        font-family: Baskerville, Georgia, serif;
-        font-weight: 400;
-        letter-spacing: 10px;
-        font-size: 30px;
+    #intro{
+        font-size: 32px;
+        padding-top: 10%;
     }
+    
+    
 
 /*---------JQUERY PAGE DIVIDERS----------*/
     
-    .vids{
-        padding-top: 5%;        
-        height: 50%;
+    .vids{       
+        height: 65vh;
         width: 50%;
         display: block;
         margin: 0 auto;
     }
-    
-    .paral{
-        text-align: center;
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: white;
-        color: black;
-        height: 750px;
+
+    #cont1{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
+    }
+    #cont2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
         
     }
-
-    .paralSec{
-        background-color: black;
-        height: 500px;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 15px;
-        height: 750px;
+    #cont3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img3.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
     }
-
-    .paralInner{
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-right: 200px;
-        margin-left: 200px;
-        line-height: 40px;
+    #cont4{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../pages/images/img1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: table;
     }
+    
+    
 
 
 /*---------End of QUERY PAGE DIVIDERS----------*/
+    
+    .headers {
+        font-family: Baskerville, Georgia, serif;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+        color: black;
+        margin: 0;
+
+    }
+    
+    .info{
+        font-family: Baskerville, Georgia, serif;
+        text-align: center;
+        font-size: 24px;
+        font-style: italic;
+        color: black;
+        
+        padding: 2% 7% 1% 7%;
+    }
     
 }

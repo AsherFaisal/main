@@ -1,59 +1,65 @@
 @media screen and (min-width: 360px){
 
-    #container{    
-        text-align: center;  
-        height: auto;
+      .dropdown{
+        background-color: #222222;
     }
-
+    
     body{
-        margin: 0auto;
-        height: auto;
+        margin: 0;
+        padding: 0;
     }
-
+    
     .intro{
-        margin: 15% 10% 10% 10%;
-
+        margin: 0;
+        height: 100vh;
+        padding: 15% 10% 10% 10%;
+        color: #ffffff;
+        background-color: #222222;
+        text-align: center;
     }
-
+    
+    h1 {
+        text-align: center;
+    }
 
     .infoLight{
         line-height: 40px;
+        color: white;
+        font-family: Baskerville, Georgia, serif;
+        font-size: 24px;
+        font-style: italic;
+        display: inline;        
     }
 
-    .projects{
-        padding-top: 15%;    
-    }
 
     .jamming, .ravenous {
 
+        height: 100vh;  
         width: 100%;
-        height: 600px;            
+         
     }
 
     .info{
-        width: 30%;
-        height: 700px;
-        padding: 5% 5% 3% 5%;
-
+        height: 760px;
         font-family: Baskerville, Georgia, serif;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 40px;
-        font-style: italic;
         text-align: justify;
         display: inline;
-        color: black;
+        padding: 5% 2% 5% 2%;
 
     }
 
     .vidsReact{
         width: 100%;
         height: 35%;  
-        padding-bottom: 5%;
+        margin-top: 5%;
     }
     
     video{
+
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
 
@@ -66,24 +72,48 @@
 
 @media screen and (min-width: 960px){
 
+       
+    .dropdown{
+        background-color: #161617;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;        
+    }
+    
     #container{    
         text-align: center;  
         height: auto;
     }
 
-    body{
-        margin: 0auto;
-        height: auto;
-    }
-
     .intro{
-        margin: 15% 10% 10% 10%;
+        margin: 0;
+        height: 100vh;
+        padding: 15% 10% 10% 10%;
+        color: #ffffff;
+        background-image:
+            linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.5)
+            ), url(../pages/images/react.png);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
 
     }
-
 
     .infoLight{
         line-height: 40px;
+        color: white;
+        font-family: Baskerville, Georgia, serif;
+        font-size: 24px;
+        font-style: italic;
+        display: inline;
+        
     }
 
     .projects{
@@ -108,7 +138,6 @@
         font-style: italic;
         text-align: justify;
         display: inline;
-        color: black;
 
     }
 
